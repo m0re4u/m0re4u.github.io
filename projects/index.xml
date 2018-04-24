@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moo!</title>
-    <link>http://ezel.ml/</link>
-    <description>Recent content on Moo!</description>
+    <title>Projects on Moo!</title>
+    <link>http://ezel.ml/projects/</link>
+    <description>Recent content in Projects on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 24 Apr 2018 16:57:23 +0200</lastBuildDate>
     
-	<atom:link href="http://ezel.ml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ezel.ml/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@
       
       <guid>http://ezel.ml/projects/dnt/</guid>
       <description>I am part of the Dutch Nao Team!</description>
-    </item>
-    
-    <item>
-      <title>Test post</title>
-      <link>http://ezel.ml/blog/test_post/</link>
-      <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
-      
-      <guid>http://ezel.ml/blog/test_post/</guid>
-      <description>Wow !</description>
     </item>
     
     <item>
