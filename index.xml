@@ -21,12 +21,31 @@
     </item>
     
     <item>
+      <title>Dotfiles</title>
+      <link>http://ezel.ml/projects/dotfiles/</link>
+      <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
+      
+      <guid>http://ezel.ml/projects/dotfiles/</guid>
+      <description>My laptop runs i3 on Ubuntu, so I&amp;rsquo;ve started a repo for keeping track of my window manager configuration.</description>
+    </item>
+    
+    <item>
       <title>Dutch Nao Team</title>
       <link>http://ezel.ml/projects/dnt/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
       <guid>http://ezel.ml/projects/dnt/</guid>
-      <description>I am part of the Dutch Nao Team!</description>
+      <description>I am part of the Dutch Nao Team, participating in the RoboCup Standard Platform League. I&amp;rsquo;ve been on multiple trips with my team, which has gotten me in quite a lot of different places:
+ Techfest IIT, Mumbai, India (2015-2016) RoboCup European Open, Eindhoven, Netherlands (2016) RoboCup Leipzig, Germany (2016) RoHOW, Hamburg, Germany (2016) RoboCup Iran Open, Teheran, Iran (2017) RoboCup Nagoya, Japan (2017) RoHOW, Hamburg, Germany (2017) [TBD] RoboCup Montreal, Canada (2018)  </description>
+    </item>
+    
+    <item>
+      <title>ShareLatex scraper</title>
+      <link>http://ezel.ml/projects/sharelatex_scraper/</link>
+      <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
+      
+      <guid>http://ezel.ml/projects/sharelatex_scraper/</guid>
+      <description>I made a ShareLatex scraper, to download all my projects&amp;rsquo; source files for a local backup.</description>
     </item>
     
     <item>
