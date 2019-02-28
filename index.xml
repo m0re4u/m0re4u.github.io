@@ -6,10 +6,19 @@
     <description>Recent content on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 24 Apr 2018 16:57:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 15:42:30 +0100</lastBuildDate>
     
 	<atom:link href="http://ezel.ml/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Growth of High-Performance Machine Learning</title>
+      <link>http://ezel.ml/blog/hpc_ai/</link>
+      <pubDate>Thu, 28 Feb 2019 15:42:30 +0100</pubDate>
+      
+      <guid>http://ezel.ml/blog/hpc_ai/</guid>
+      <description>The Growth of High-Performance Machine Learning Machine learning, the hype that is being talked about around most of the water coolers, feels like a magic box for most laymen. Artificial Intelligence (AI) is on the rise more than ever, and for most people it seemed to come out of nowhere. However, what they don&amp;rsquo;t know is that most of the theoretical work was already laid out over 50 years ago.</description>
+    </item>
     
     <item>
       <title>launch_ext</title>
