@@ -12,6 +12,12 @@
 .box:hover::after {
     opacity: 1;
 }
+.markdown {
+  text-align: justify;
+}
+.avatar {
+  max-width: 150px !important;
+}
 
 .li-proj .title {
   font-weight: 700;
