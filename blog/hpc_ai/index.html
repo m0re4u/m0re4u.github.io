@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Michiel van der Meer">
+<meta name="description" content="Machine learning, the hype that is being talked about around most of the water coolers, feels like a magic box for most laymen. Artificial Intelligence (AI) is on the rise more than ever, and for most people it seemed to come out of nowhere. However, what they don&rsquo;t know is that most of the theoretical work was already laid out over 50 years ago. The technology that is in use today didn&rsquo;t come out of nowhere, but is the result of years of research in computer science, psychology and mathematics.">
+
+<meta property="og:title" content="The Growth of High-Performance Machine Learning" />
+<meta property="og:description" content="Machine learning, the hype that is being talked about around most of the water coolers, feels like a magic box for most laymen. Artificial Intelligence (AI) is on the rise more than ever, and for most people it seemed to come out of nowhere. However, what they don&rsquo;t know is that most of the theoretical work was already laid out over 50 years ago. The technology that is in use today didn&rsquo;t come out of nowhere, but is the result of years of research in computer science, psychology and mathematics." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ezel.ml/blog/hpc_ai/" />
+<meta property="article:published_time" content="2019-02-28T15:42:30&#43;01:00"/>
+<meta property="article:modified_time" content="2019-02-28T15:42:30&#43;01:00"/>
+
+
+<title>
+
+
+    
+      The Growth of High-Performance Machine Learning
+    
+
+</title>
+<link rel="canonical" href="http://ezel.ml/blog/hpc_ai/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="http://ezel.ml/css/reset.css?t=2019-03-05%2015%3a38%3a24.3223625%20%2b0100%20CET%20m%3d%2b0.085911601">
+    <link rel="stylesheet" href="http://ezel.ml/css/pygments.css?t=2019-03-05%2015%3a38%3a24.3223625%20%2b0100%20CET%20m%3d%2b0.085911601">
+    <link rel="stylesheet" href="http://ezel.ml/css/main.css?t=2019-03-05%2015%3a38%3a24.3223625%20%2b0100%20CET%20m%3d%2b0.085911601">
+    
+        <link rel="stylesheet" href="http://ezel.ml/css/override.css?t=2019-03-05%2015%3a38%3a24.3223625%20%2b0100%20CET%20m%3d%2b0.085911601">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://ezel.ml/img/favicon.ico"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                
+                <a href="http://ezel.ml/"><img class="avatar" src="http://ezel.ml/img/me.jpg" srcset="http://ezel.ml/img/me.jpg 1x"></a>
+            
+            <a href="http://ezel.ml/"><div class="name">Michiel van der Meer</div></a>
+
+<nav>
+    <ul>
+        
+            <li class="nav-blog"><a href="http://ezel.ml/blog/"><span>Blog</span></a></li>
+        
+            <li class="nav-about"><a href="http://ezel.ml/about/"><span>About</span></a></li>
+        
+            <li class="nav-projects"><a href="http://ezel.ml/projects/"><span>Projects</span></a></li>
+        
+    </ul>
+</nav>
+
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+        
+            <a href="//github.com/m0re4u" target="_blank" rel="noopener"><img class="icon" src="http://ezel.ml/img/github.svg" alt="github" /></a>
+        
+
+        
+
+	
+
+        
+
+        
+
+        
+            <a href="//linkedin.com/in/michiel-meer" target="_blank" rel="noopener"><img class="icon" src="http://ezel.ml/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:michiel@dutchnaoteam.nl"><img class="icon" src="http://ezel.ml/img/email.svg" alt="email" /></a>
+        
+
+        
+
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    The Growth of High-Performance Machine Learning
+
+</div>
+
+                    <div class="initials"><a href="http://ezel.ml/"></a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Thu Feb 28 2019 15:42:30 CET'>Feb 28, 2019</div>
+                    
+                    
+		    <div class="reading-time"><div class="middot"></div>3 minutes read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<p>Machine learning, the hype that is being talked about around most of the water coolers, feels like a magic box for most laymen. Artificial Intelligence (AI) is on the rise more than ever, and for most people it seemed to come out of nowhere. However, what they don&rsquo;t know is that most of the theoretical work was already laid out over 50 years ago. The technology that is in use today didn&rsquo;t come out of nowhere, but is the result of years of research in computer science, psychology and mathematics. Nowadays, these model push existing soft- and hardware to the limit for the purpose of</p>
+
+<h2 id="ai-winters">AI Winters</h2>
+
+<p>In the early days of AI, the approach to machine intelligence relied on the idea of knowledge systems and manipulation of symbolic representations (also called GOFAI: Good Old Fashioned AI). In these systems, experts from their respective fields would incorporate knowledge into rule bases. With these rules, automated reasoning systems would logically derive the best outcomes. Because these systems were made by (human) experts, they worked pretty well, but lacked generality or failed to scale up when presented with larger problem sizes. Even the most succesful expert systems eventually collapsed under the pressure of underfunding in what is known as an AI winter. This trend of ups and downs can be seen throughout AIhistory, and many still believe it to be the case.</p>
+
+<h2 id="rise-of-neural-networks">Rise of Neural Networks</h2>
+
+<p>What followed, luckily for AI research, was the rise of approximate methods with the birth of Neural Networks. The idea, which can be traced back to the early 60&rsquo;s, gained traction with the derivation of continuous backpropagation and increased computational power. Over the last decade, as cheap, powerful GPU-based computing has become more available, this algorithm has proved to be <em>the</em> general machine learning paradigm.</p>
+
+<p>Together with the popularity of neural networks, the universal approximation theorem was sprouted. This theorem states that a neural network with a single hidden layer is able to approximate any continuous function, and thus should be able to perform any interesting form pattern recognition. Although, soon after, it was found that the amount of neurons in that layer may have to be infeasibly high, and moreover may fail to generalize properly.</p>
+
+<p>With the birth of deep learning, researchers moved from wide to deep models. Instead of having a large amount of neurons in one or two layers, models are now considered to be more powerful when equipped with a multitude of fully connected, convolutional or pooling layers. All of these try to capture a certain structure in the task an AI developer employs the network for, and each of these layers is to be chosen carefully when designing a network.</p>
+
+<h2 id="high-performance-machine-learning">High Performance Machine Learning</h2>
+
+<p>Nowadays, researchers don&rsquo;t shy away from training huge models. These models, some with over a thousand layers, are notoriously difficult to train within reasonable time. For this, simple GPU acceleration is no longer sufficient. Even though matrix multiplication, the most important operation in the gradient descent update step, can be massively parallelized, single GPU performance falls short of the ever increasing need of computing power from AI researchers.</p>
+
+<p>For this reason, frameworks such as <a href="https://github.com/horovod/horovod">Horovod</a> have been introduced. The idea is to provide an easily scalable interface on top of existing machine learning frameworks (e.g. PyTorch or TensorFlow) such that minimal code adjustments are needed to perform distributed training. In this distributed setting, multiple GPUs can be employed in parallel to perform indepdendent gradient updates, which finally are averaged to form a single optimizer step.</p>
+
+<p>&ndash;</p>
+
+<p>Michiel van der Meer</p>
+
+                <br>
+		<p class="back-to-posts"><a href="http://ezel.ml/blog/">Back to posts</a></p>
+            </div>
+            <br>
+        </div>
+    </div>
+</section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+
