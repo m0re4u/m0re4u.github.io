@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moo!</title>
-    <link>http://ezel.ml/</link>
+    <link>https://m0re4u.github.io/</link>
     <description>Recent content on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 05 Mar 2019 15:29:23 +0200</lastBuildDate>
     
-	<atom:link href="http://ezel.ml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://m0re4u.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Master thesis</title>
-      <link>http://ezel.ml/projects/thesis/</link>
+      <link>https://m0re4u.github.io/projects/thesis/</link>
       <pubDate>Tue, 05 Mar 2019 15:29:23 +0200</pubDate>
       
-      <guid>http://ezel.ml/projects/thesis/</guid>
+      <guid>https://m0re4u.github.io/projects/thesis/</guid>
       <description>I&amp;rsquo;m currently working on my master thesis in Reinforcement Learning on the topics of exploration strategies, compositionality and hierarchical models.
 My fork of ILLC&amp;rsquo;s machine can be found here.</description>
     </item>
     
     <item>
       <title>The Growth of High-Performance Machine Learning</title>
-      <link>http://ezel.ml/blog/hpc_ai/</link>
+      <link>https://m0re4u.github.io/blog/hpc_ai/</link>
       <pubDate>Thu, 28 Feb 2019 15:42:30 +0100</pubDate>
       
-      <guid>http://ezel.ml/blog/hpc_ai/</guid>
+      <guid>https://m0re4u.github.io/blog/hpc_ai/</guid>
       <description>Machine learning, the hype that is being talked about around most of the water coolers, feels like a magic box for most laymen. Artificial Intelligence (AI) is on the rise more than ever, and for most people it seemed to come out of nowhere. However, what they don&amp;rsquo;t know is that most of the theoretical work was already laid out over 50 years ago. The technology that is in use today didn&amp;rsquo;t come out of nowhere, but is the result of years of research in computer science, psychology and mathematics.</description>
     </item>
     
     <item>
       <title>launch_ext</title>
-      <link>http://ezel.ml/projects/launch_ext/</link>
+      <link>https://m0re4u.github.io/projects/launch_ext/</link>
       <pubDate>Tue, 24 Apr 2018 16:57:23 +0200</pubDate>
       
-      <guid>http://ezel.ml/projects/launch_ext/</guid>
+      <guid>https://m0re4u.github.io/projects/launch_ext/</guid>
       <description>I made an space launch tracker extension for Google Chrome using LaunchLibrary!</description>
     </item>
     
     <item>
       <title>Dotfiles</title>
-      <link>http://ezel.ml/projects/dotfiles/</link>
+      <link>https://m0re4u.github.io/projects/dotfiles/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
-      <guid>http://ezel.ml/projects/dotfiles/</guid>
+      <guid>https://m0re4u.github.io/projects/dotfiles/</guid>
       <description>My laptop runs i3 on Ubuntu, so I&amp;rsquo;ve started a repo for keeping track of my window manager configuration.</description>
     </item>
     
     <item>
       <title>Dutch Nao Team</title>
-      <link>http://ezel.ml/projects/dnt/</link>
+      <link>https://m0re4u.github.io/projects/dnt/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
-      <guid>http://ezel.ml/projects/dnt/</guid>
+      <guid>https://m0re4u.github.io/projects/dnt/</guid>
       <description>I have been a part of the Dutch Nao Team since 2015, participating in the RoboCup Standard Platform League. I&amp;rsquo;ve been on multiple trips with my team, which has led me to quite a lot of different places:
  Techfest IIT, Mumbai, India (2015-2016) RoboCup European Open, Eindhoven, Netherlands (2016) RoboCup Leipzig, Germany (2016) RoHOW, Hamburg, Germany (2016) RoboCup Iran Open, Teheran, Iran (2017) RoboCup Nagoya, Japan (2017) RoHOW, Hamburg, Germany (2017) RoboCup Montreal, Canada (2018) Messe Dornbirn, Austria (2018) RoHOW, Hamburg, Germany (2018)  Inside the team I was involved with the creation of our own framework, as well as leading the project group on automation.</description>
     </item>
     
     <item>
       <title>ShareLatex scraper</title>
-      <link>http://ezel.ml/projects/sharelatex_scraper/</link>
+      <link>https://m0re4u.github.io/projects/sharelatex_scraper/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
-      <guid>http://ezel.ml/projects/sharelatex_scraper/</guid>
+      <guid>https://m0re4u.github.io/projects/sharelatex_scraper/</guid>
       <description>I made a ShareLatex scraper, to download all my projects&amp;rsquo; source files for a local backup.</description>
     </item>
     
     <item>
       <title>Test post</title>
-      <link>http://ezel.ml/blog/test_post/</link>
+      <link>https://m0re4u.github.io/blog/test_post/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
-      <guid>http://ezel.ml/blog/test_post/</guid>
+      <guid>https://m0re4u.github.io/blog/test_post/</guid>
       <description>Wow !</description>
     </item>
     
     <item>
       <title>language-netlogo</title>
-      <link>http://ezel.ml/projects/language_netlogo/</link>
+      <link>https://m0re4u.github.io/projects/language_netlogo/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
-      <guid>http://ezel.ml/projects/language_netlogo/</guid>
+      <guid>https://m0re4u.github.io/projects/language_netlogo/</guid>
       <description>I created the NetLogo language package for Atom!</description>
     </item>
     

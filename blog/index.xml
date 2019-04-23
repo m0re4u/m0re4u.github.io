@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Moo!</title>
-    <link>http://ezel.ml/blog/</link>
+    <link>https://m0re4u.github.io/blog/</link>
     <description>Recent content in Blog on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 28 Feb 2019 15:42:30 +0100</lastBuildDate>
     
-	<atom:link href="http://ezel.ml/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://m0re4u.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Growth of High-Performance Machine Learning</title>
-      <link>http://ezel.ml/blog/hpc_ai/</link>
+      <link>https://m0re4u.github.io/blog/hpc_ai/</link>
       <pubDate>Thu, 28 Feb 2019 15:42:30 +0100</pubDate>
       
-      <guid>http://ezel.ml/blog/hpc_ai/</guid>
+      <guid>https://m0re4u.github.io/blog/hpc_ai/</guid>
       <description>Machine learning, the hype that is being talked about around most of the water coolers, feels like a magic box for most laymen. Artificial Intelligence (AI) is on the rise more than ever, and for most people it seemed to come out of nowhere. However, what they don&amp;rsquo;t know is that most of the theoretical work was already laid out over 50 years ago. The technology that is in use today didn&amp;rsquo;t come out of nowhere, but is the result of years of research in computer science, psychology and mathematics.</description>
     </item>
     
     <item>
       <title>Test post</title>
-      <link>http://ezel.ml/blog/test_post/</link>
+      <link>https://m0re4u.github.io/blog/test_post/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
-      <guid>http://ezel.ml/blog/test_post/</guid>
+      <guid>https://m0re4u.github.io/blog/test_post/</guid>
       <description>Wow !</description>
     </item>
     
