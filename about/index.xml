@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Moo!</title>
-    <link>http://ezel.ml/about/</link>
+    <link>https://m0re4u.github.io/about/</link>
     <description>Recent content in About on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 24 Apr 2018 16:53:31 +0200</lastBuildDate>
     
-	<atom:link href="http://ezel.ml/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://m0re4u.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
