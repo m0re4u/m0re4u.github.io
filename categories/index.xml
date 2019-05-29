@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Moo!</title>
-    <link>https://m0re4u.github.io/categories/</link>
+    <link>http://vandermeer.ai/categories/</link>
     <description>Recent content in Categories on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://m0re4u.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://vandermeer.ai/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
