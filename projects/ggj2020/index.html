@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Michiel van der Meer">
+<meta name="description" content="During the 2020 Global Game Jam, my team and I worked on Re-Pair, a retro RTS in Pico-8. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&rsquo;t pair them all!
+You can play it below. Since it requires a mouse to be played, play it in your browser!
+    var canvas = document.">
+
+<meta property="og:title" content="Global Game Jam 2020" />
+<meta property="og:description" content="During the 2020 Global Game Jam, my team and I worked on Re-Pair, a retro RTS in Pico-8. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&rsquo;t pair them all!
+You can play it below. Since it requires a mouse to be played, play it in your browser!
+    var canvas = document." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://vandermeer.ai/projects/ggj2020/" />
+
+
+
+<meta property="article:published_time" content="2020-02-03T11:56:42&#43;01:00"/>
+
+<meta property="article:modified_time" content="2020-02-03T11:56:42&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+    
+      Global Game Jam 2020
+    
+
+</title>
+<link rel="canonical" href="http://vandermeer.ai/projects/ggj2020/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="http://vandermeer.ai/css/reset.css?t=2020-02-04%2015%3a27%3a35.295425373%20%2b0100%20CET%20m%3d%2b0.055128371">
+    <link rel="stylesheet" href="http://vandermeer.ai/css/pygments.css?t=2020-02-04%2015%3a27%3a35.295425373%20%2b0100%20CET%20m%3d%2b0.055128371">
+    <link rel="stylesheet" href="http://vandermeer.ai/css/main.css?t=2020-02-04%2015%3a27%3a35.295425373%20%2b0100%20CET%20m%3d%2b0.055128371">
+    
+        <link rel="stylesheet" href="http://vandermeer.ai/css/override.css?t=2020-02-04%2015%3a27%3a35.295425373%20%2b0100%20CET%20m%3d%2b0.055128371">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://vandermeer.ai/img/favicon.ico"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                <a href="http://vandermeer.ai/"><img class="avatar" src="http://vandermeer.ai/img/prof.png" srcset="http://vandermeer.ai/img/prof.png 1x"></a>
+            
+            <a href="http://vandermeer.ai/"><div class="name">Michiel van der Meer</div></a>
+
+<nav>
+    <ul>
+        
+            <li class="nav-blog"><a href="http://vandermeer.ai/blog/"><span>Blog</span></a></li>
+        
+            <li class="nav-about"><a href="http://vandermeer.ai/about/"><span>About</span></a></li>
+        
+            <li class="nav-projects"><a href="http://vandermeer.ai/projects/"><span>Projects</span></a></li>
+        
+    </ul>
+</nav>
+
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+        
+            <a href="//github.com/m0re4u" target="_blank" rel="noopener"><img class="icon" src="http://vandermeer.ai/img/github.svg" alt="github" /></a>
+        
+
+        
+
+	
+
+        
+
+        
+
+        
+            <a href="//linkedin.com/in/michiel-meer" target="_blank" rel="noopener"><img class="icon" src="http://vandermeer.ai/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:michiel@vandermeer.ai"><img class="icon" src="http://vandermeer.ai/img/email.svg" alt="email" /></a>
+        
+
+        
+
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Global Game Jam 2020
+
+</div>
+
+            <div class="markdown">
+                <p>During the <a href="https://globalgamejam.org/2020">2020 Global Game Jam</a>, my team and I worked on <a href="https://globalgamejam.org/2020/games/re-pair-7-3"><strong>Re-Pair</strong></a>, a retro RTS in <a href="https://www.lexaloffle.com/pico-8.php">Pico-8</a>. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&rsquo;t pair them all!</p>
+
+<p>You can play it below. Since it requires a mouse to be played, play it in your browser!</p>
+
+<head>
+	<link rel="stylesheet" href="http://vandermeer.ai/css/pico8.css">
+</head>
+
+
+<body>
+<div id="layout">
+
+<div id="main">
+
+<div class="content">
+
+<div style="width: 542px; padding: 15px; background-color: #000; margin-left: auto; margin-right: auto;">
+	<div style="width:512px;">
+
+	<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+
+	<script type="text/javascript">
+		var canvas = document.getElementById("canvas");
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+		var Module = {};
+		Module.canvas = canvas;
+	</script>
+
+	<script async type="text/javascript" src="http://vandermeer.ai/js/re_pair.js"></script>
+
+	<script>
+		function onKeyDown_blocker(event) {
+			event = event || window.event;
+			var o = document.activeElement;
+			if (!o || o == document.body || o.tagName == "canvas")
+			{
+				if ([32, 37, 38, 39, 40].indexOf(event.keyCode) > -1)
+				{
+					if (event.preventDefault) event.preventDefault();
+				}
+			}
+		}
+		document.addEventListener('keydown', onKeyDown_blocker, false);
+	</script>
+
+	<br>
+
+	<div class=pico8_el onclick="Module.pico8Reset();">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dOwoAMQhE15A+rfc/3bZ7AlMnQfywCkKsfcgMM9ZP+QHtIn0vLeBAFduiFdQ/0DmvtR5LXJ6CPSXe2ZXcFNlTxFbemKrbZPs35XogeS9xeQr+anT6LzoOwEDwZJ7jwhXUnwkTTiDQ2Ja34AAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Reset" width=12 height=	12/><p>Reset</p></div>
+
+	<div class=pico8_el onclick="Module.pico8TogglePaused();">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAPUlEQVR4Ae3doQ0AIAxEUWABLPtPh2WCq26DwFSU/JPNT166QSu/Hg86W9dwLte+diP7AwAAAAAAgD+A+jM2ZAgo84I0PgAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Pause" width=12 height=12/> <p>Pause</p></div>
+
+	<div class=pico8_el onclick="Module.requestFullScreen(true, false);">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dsQ1AIQhExfze1v2ns3UCrfgFhmgUUAoGgHscp21wX9BqaZoDojbB96OkDJKNcTN2BHTyYNYmoT2BlPL7BKgcPfHjAVXKKadkHOn9K1r16N0czN6a95N8mnA7Aq2fTZ3Af3UKmCSMazL8HwAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Fullscreen" width=12 height=12/><p>Fullscreen</p></div>
+
+	<div class=pico8_el onclick="Module.pico8ToggleSound();">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAXklEQVR4Ae2doQ4AIQxD4YLH8v9fh+ULhjpxxSwLg2uyapr1JRu1iV5Z+1BGl4+xNpX38SYo2uRvYiT5LwEmt+ocgXVLrhPEgBiw8Q5w7/kueSkK+D2tJO4E/I3GrwkqQCBabEj/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Toggle Sound" width=12 height=12/><p>Sound</p></div>
+
+	<div class=pico8_el ><a target="_new" href="http://www.lexaloffle.com/bbs/?cat=7&sub=2">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAlElEQVR4Ae2dMQ5FQBCGh6jcwAkkateg3DiAa+iQUGqVKi95FQfAJRQOoHeBUf8JyQqKjZ1uMzuz2e/LTE3KhyF7kSlgLOykas23f6D+A9Yp84aAOYU15pcJnfji0Il2ID8HzC4y38ZrnfIBGxeRoR3c3EWrACdsV5BOsx7OSRnrOXh4F5HzA6bevwUn8wlz7eCDsQM99B3ks0s/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="More Carts" width=12 height=12/><p>Carts</p></a></div>
+
+	<br>
+	<br>
+
+	</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+

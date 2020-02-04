@@ -6,10 +6,21 @@
     <description>Recent content in Projects on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Apr 2019 15:29:23 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 11:56:42 +0100</lastBuildDate>
     
 	<atom:link href="http://vandermeer.ai/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Global Game Jam 2020</title>
+      <link>http://vandermeer.ai/projects/ggj2020/</link>
+      <pubDate>Mon, 03 Feb 2020 11:56:42 +0100</pubDate>
+      
+      <guid>http://vandermeer.ai/projects/ggj2020/</guid>
+      <description>During the 2020 Global Game Jam, my team and I worked on Re-Pair, a retro RTS in Pico-8. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&amp;rsquo;t pair them all!
+You can play it below. Since it requires a mouse to be played, play it in your browser!
+    var canvas = document.</description>
+    </item>
     
     <item>
       <title>RaLLy</title>
