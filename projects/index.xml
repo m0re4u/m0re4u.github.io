@@ -6,10 +6,20 @@
     <description>Recent content in Projects on Moo!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 03 Feb 2020 11:56:42 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2020 15:56:42 +0200</lastBuildDate>
     
 	<atom:link href="http://vandermeer.ai/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Axies</title>
+      <link>http://vandermeer.ai/projects/axies/</link>
+      <pubDate>Wed, 23 Sep 2020 15:56:42 +0200</pubDate>
+      
+      <guid>http://vandermeer.ai/projects/axies/</guid>
+      <description>Below you will find all the values relevant in this experiment. Please use it as a reference if you want to find out more about the values you encounter. In a large bold font, you find the value ID and name. Listed underneath are all keywords associated with this value. Finally, we give a defining goal to each value.
+0 - nuclear family couch, wedding, parents, sister, birth, family members, foundation, social education, unnatural, child, relatives.</description>
+    </item>
     
     <item>
       <title>Global Game Jam 2020</title>
