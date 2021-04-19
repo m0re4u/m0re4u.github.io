@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moo!</title>
+    <title>Moo! - Michiel van der Meer</title>
     <link>https://liacs.leidenuniv.nl/~meermtvander/</link>
-    <description>Recent content on Moo!</description>
+    <description>Recent content on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 23 Sep 2020 15:56:42 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Apr 2021 20:00:42 +0200</lastBuildDate>
     
 	<atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Collaborative Platform for Identifying Context-Specific Values</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_demo/</link>
+      <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_demo/</guid>
+      <description>Link to the paper: here.
+@inproceedings{liscio2021collaborative, title={A Collaborative Platform for Identifying Context-Specific Values}, author={Liscio, Enrico and van der Meer, Michiel and Jonker, Catholijn M and Murukannaiah, Pradeep K}, booktitle={Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems}, pages={1773--1775}, year={2021}, address={London}, keywords={Agents, values, ethics, NLP}, }  </description>
+    </item>
+    
+    <item>
+      <title>Axies: Identifying and Evaluating Context-Specific Values</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/axies/</link>
+      <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/axies/</guid>
+      <description>Link to the paper: here.
+@inproceedings{liscio2021axies, title={Axies: Identifying and Evaluating Context-Specific Values}, author={Liscio, Enrico and van der Meer, Michiel and Siebert, Luciano C and Jonker, Catholijn M and Mouter, Niek and Murukannaiah, Pradeep K}, booktitle={Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems}, pages={799--808}, year={2021}, address={London}, keywords={Agents, values, ethics, NLP}, }  </description>
+    </item>
+    
+    <item>
+      <title>Hunting a Robot Controlled by an Artificial Brain</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/hans/</link>
+      <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hans/</guid>
+      <description>Link to the paper: here.
+@inproceedings{van2015hunting, title={Hunting a robot controlled by an artificial brain}, author={van Harmelen, Martin and van der Meer, Michiel and Boon, Maarten and Gerbscheid, Jonathan and Visser, Arnoud and others}, booktitle={Proceedings of the 27th Belgian-Netherlands Conference on Artificial Intelligence (BNAIC 2015), Hasselt, Belgium}, year={2015} }  </description>
+    </item>
+    
+    <item>
+      <title>The Roasted Tomato Challenge for a Humanoid Robot</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/tomato/</link>
+      <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/tomato/</guid>
+      <description>Link to the paper: here.
+@inproceedings{lagrand2016roasted, title={The roasted tomato challenge for a humanoid robot}, author={Lagrand, Caitlin and van der Meer, Michiel and Visser, Arnoud}, booktitle={2016 International Conference on Autonomous Robot Systems and Competitions (ICARSC)}, pages={341--346}, year={2016}, organization={IEEE} }  </description>
+    </item>
     
     <item>
       <title>Axies</title>

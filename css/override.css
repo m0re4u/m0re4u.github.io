@@ -37,3 +37,32 @@
   font-style: italic;
   padding-bottom: 2px;
 }
+
+.li-publication {
+  min-width: 120%;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: box-shadow .2s;
+}
+.li-publication .title {
+  font-weight: 700;
+}
+.li-publication .date {
+  font-size: 9px;
+  text-align: left !important;
+  margin-left: 15px;
+  display:table;
+  margin:0 auto;
+}
+.li-publication .smalltitle {
+  font-size: 15px;
+  text-align: left !important;
+  margin-left: 15px;
+  font-style: italic;
+  padding-bottom: 2px;
+}
+
+.li-publication:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
