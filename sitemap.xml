@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liacs.leidenuniv.nl/~meermtvander/projects/hovo/</loc>
+    <lastmod>2021-11-16T15:56:42+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/teaching/</loc>
     <lastmod>2021-09-13T13:12:31+02:00</lastmod>
   </url>
@@ -99,13 +104,13 @@
   
   <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/</loc>
-    <lastmod>2021-04-19T20:00:42+02:00</lastmod>
+    <lastmod>2021-11-16T15:56:42+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/projects/</loc>
-    <lastmod>2020-09-23T15:56:42+02:00</lastmod>
+    <lastmod>2021-11-16T15:56:42+01:00</lastmod>
     <priority>0</priority>
   </url>
   
