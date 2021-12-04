@@ -6,7 +6,7 @@
     <description>Recent content on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Nov 2021 15:56:42 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 04 Dec 2021 15:56:42 +0100</lastBuildDate>
     
 	<atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,12 +14,12 @@
     <item>
       <title>HOVO</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/projects/hovo/</link>
-      <pubDate>Tue, 16 Nov 2021 15:56:42 +0100</pubDate>
+      <pubDate>Sat, 04 Dec 2021 15:56:42 +0100</pubDate>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/hovo/</guid>
-      <description> College gegeven in het Nederlands voor de cursus De Mens: een Algoritme met Huidhonger.
+      <description>College gegeven in het Nederlands voor de cursus De Mens: een Algoritme met Huidhonger.
 Gegeven in Groningen (17-11-2021) en Amsterdam (22-11-2021).
-Links  Link naar de presentatie slides. Tegenlicht documentaire Reactie op Tegenlicht docu TBD  Boeken  Homo Deus van Yuval Noah Harari Klara and the Sun van Kazuo Ishiguro I, Robot van Isaac Asimov  Photos   </description>
+Links  Link naar de presentatie slides. Tegenlicht documentaire Reactie op Tegenlicht docu -&amp;gt; Zie onder  Boeken  Homo Deus van Yuval Noah Harari Klara and the Sun van Kazuo Ishiguro I, Robot van Isaac Asimov  Reactie op Tegenligt &amp;ldquo;Digimens&amp;rdquo; geschreven op 2021-12-04 door Michiel van der Meer</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@ Defining goal: pleasure or sensuous gratification for oneself.
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/ggj2020/</guid>
       <description>During the 2020 Global Game Jam, my team and I worked on Re-Pair, a retro RTS in Pico-8. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&amp;rsquo;t pair them all!
 You can play it below. Since it requires a mouse to be played, play it in your browser!
-    var canvas = document.</description>
+var canvas = document.</description>
     </item>
     
     <item>
