@@ -18,7 +18,7 @@
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</guid>
       <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.
- Link to the paper: TBD.  Supplementary material  Description and additional results Code and data Annotator instructions - consent form - argument annotation - argument consolidation - evaluation - (expert) topic generation - topic assignment Screenshots - signup page (consent form) - main page - argument annotation - argument consolidation - evaluation - topic assignment  How to cite @misc{van2022hyenasuppl author={van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K}, title={HyEnA: A Hybrid Method for Extracting Arguments from Opinions: Supplementary Material}, howpublished={https://liacs.</description>
+ Link to the paper: TBD  Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and the comparison with the manual approach. Code and data: contains all data and code used in the analysis experiments for HyEnA.</description>
     </item>
     
     <item>
