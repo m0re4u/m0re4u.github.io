@@ -18,7 +18,7 @@
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</guid>
       <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.
- Link to the paper: TBD  Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and the comparison with the manual approach. Code and data: contains all data and code used in the analysis experiments for HyEnA.</description>
+ Link to the paper: TBD  Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines. Code and data: contains all data and code used in the analysis experiments for HyEnA.</description>
     </item>
     
     <item>
