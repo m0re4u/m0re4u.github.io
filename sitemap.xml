@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</loc>
+    <lastmod>2022-04-21T14:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_jaamas/</loc>
+    <lastmod>2022-03-28T12:00:42+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</loc>
     <lastmod>2022-02-24T12:30:00+02:00</lastmod>
   </url>
@@ -109,7 +119,7 @@
   
   <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/</loc>
-    <lastmod>2022-02-24T12:30:00+02:00</lastmod>
+    <lastmod>2022-04-21T14:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,7 +131,7 @@
   
   <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/</loc>
-    <lastmod>2022-02-24T12:30:00+02:00</lastmod>
+    <lastmod>2022-04-21T14:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
