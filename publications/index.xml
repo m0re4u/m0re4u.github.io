@@ -18,7 +18,7 @@
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</guid>
       <description>Artificial agents benefit from asking questions to human instructors at the right time, can predictive uncertainty be used to find the right time? Joint work with my colleagues from Hybrid Intelligence: Kata Naszadi, Taewoon Kim, Putra Manggala.
- Link to the paper: here.  </description>
+ Link to the two-page abstract: here.  </description>
     </item>
     
     <item>
@@ -38,7 +38,17 @@
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</guid>
       <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.
- Link to the paper: TBD  Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines. Code and data: contains all data and code used in the analysis experiments for HyEnA.</description>
+ Link to the paper: TBD  How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {1--15}, publisher = {IOS Press}, title = {{HyEnA: A Hybrid Method for Extracting Arguments from Opinions}}, year = {2022} }  Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
+    </item>
+    
+    <item>
+      <title>Reason Against the Machine: Future Directions for Mass Online Deliberation</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/platforms/</link>
+      <pubDate>Mon, 31 Jan 2022 14:00:00 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/platforms/</guid>
+      <description>Review paper on the design elements in deliberation platforms.
+ Link to the paper: here.  </description>
     </item>
     
     <item>
@@ -79,6 +89,16 @@
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/tomato/</guid>
       <description>Link to the paper: here.
 @inproceedings{lagrand2016roasted, title={The roasted tomato challenge for a humanoid robot}, author={Lagrand, Caitlin and van der Meer, Michiel and Visser, Arnoud}, booktitle={2016 International Conference on Autonomous Robot Systems and Competitions (ICARSC)}, pages={341--346}, year={2016}, organization={IEEE} }  </description>
+    </item>
+    
+    <item>
+      <title>Exploiting Language Instructions for Interpretable and Compositional Reinforcement Learning</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/thesis/</link>
+      <pubDate>Mon, 13 Jan 2020 14:00:00 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/thesis/</guid>
+      <description>Attempt to interpret the latent space from an RL agent to identify its current objective in a complex language instruction. This work followed my master thesis at the UvA.
+ Link to the paper: here.  </description>
     </item>
     
   </channel>

@@ -34,7 +34,7 @@
   font-size: 15px;
   text-align: left !important;
   margin-left: 15px;
-  font-style: italic;
+  font-style: normal;
   padding-bottom: 2px;
 }
 
@@ -45,21 +45,25 @@
   padding-bottom: 12px;
   transition: box-shadow .2s;
 }
+
 .li-publication .title {
+  font-size: 14px;
   font-weight: 700;
 }
+.li-publication .authors {
+  font-size: 14px;
+  font-weight: 100;
+}
 .li-publication .date {
-  font-size: 9px;
+  font-size: 10px;
   text-align: left !important;
-  margin-left: 15px;
-  display:table;
+  display: table;
   margin:0 auto;
 }
 .li-publication .smalltitle {
-  font-size: 15px;
+  font-size: 14px;
   text-align: left !important;
-  margin-left: 15px;
-  font-style: italic;
+  font-style: normal;
   padding-bottom: 2px;
 }
 
