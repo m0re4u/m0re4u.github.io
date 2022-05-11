@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liacs.leidenuniv.nl/~meermtvander/projects/reddit_discussions/</loc>
+    <lastmod>2022-05-11T11:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</loc>
     <lastmod>2022-04-21T14:00:00+02:00</lastmod>
   </url>
@@ -129,13 +134,13 @@
   
   <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/</loc>
-    <lastmod>2022-04-21T14:00:00+02:00</lastmod>
+    <lastmod>2022-05-11T11:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/projects/</loc>
-    <lastmod>2021-12-04T15:56:42+01:00</lastmod>
+    <lastmod>2022-05-11T11:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

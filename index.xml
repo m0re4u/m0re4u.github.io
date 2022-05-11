@@ -6,10 +6,20 @@
     <description>Recent content on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 21 Apr 2022 14:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 11 May 2022 11:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VBDA-reddit</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/projects/reddit_discussions/</link>
+      <pubDate>Wed, 11 May 2022 11:00:00 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/reddit_discussions/</guid>
+      <description>Gathering post information for research purposes on online discussions.
+More information to come.</description>
+    </item>
     
     <item>
       <title>Learning to Ask Timely Questions in a Collaborative Grounded Language Understanding Task</title>
@@ -38,7 +48,7 @@
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</guid>
       <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.
- Link to the paper: TBD  How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {1--15}, publisher = {IOS Press}, title = {{HyEnA: A Hybrid Method for Extracting Arguments from Opinions}}, year = {2022} }  Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
+ Link to the paper: here  How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {1--15}, publisher = {IOS Press}, title = {HyEnA: A Hybrid Method for Extracting Arguments from Opinions}, year = {2022} }  Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
     </item>
     
     <item>
