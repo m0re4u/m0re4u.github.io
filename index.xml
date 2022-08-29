@@ -6,10 +6,28 @@
     <description>Recent content on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 11 May 2022 11:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 26 Aug 2022 16:53:31 +0200</lastBuildDate>
     
 	<atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ArgMining22 Shared Task</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/projects/am_argnovel/</link>
+      <pubDate>Fri, 26 Aug 2022 16:53:31 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/am_argnovel/</guid>
+      <description>With colleagues from CLTL at the VU Amsterdam, we participated and achieved 1st place in the Argument Mining Workshop 2022 Shared Task.</description>
+    </item>
+    
+    <item>
+      <title>Collaborative fake news detection with AI</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/projects/h3ai/</link>
+      <pubDate>Tue, 14 Jun 2022 15:56:42 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/h3ai/</guid>
+      <description>My participation in H3AI ended up in the first place! We designed, implemented a prototype and presented an approach for hybrid (human + AI) fact checking for combating fake news.</description>
+    </item>
     
     <item>
       <title>VBDA-reddit</title>
@@ -198,15 +216,6 @@ My fork of ILLC&amp;rsquo;s machine can be found here. In addition, I push my ut
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/sharelatex_scraper/</guid>
       <description>I made a ShareLatex scraper, to download all my projects&amp;rsquo; source files for a local backup.</description>
-    </item>
-    
-    <item>
-      <title>Test post</title>
-      <link>https://liacs.leidenuniv.nl/~meermtvander/blog/test_post/</link>
-      <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
-      
-      <guid>https://liacs.leidenuniv.nl/~meermtvander/blog/test_post/</guid>
-      <description>Wow !</description>
     </item>
     
     <item>
