@@ -11,16 +11,17 @@
 <meta name="author" content="Michiel van der Meer">
 <meta name="description" content="During the 2020 Global Game Jam, my team and I worked on Re-Pair, a retro RTS in Pico-8. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&rsquo;t pair them all!
 You can play it below. Since it requires a mouse to be played, play it in your browser!
-var canvas = document.">
+&lt;canvas class=&quot;emscripten&quot; id=&quot;canvas&quot; oncontextmenu=&quot;event.">
 
 <meta property="og:title" content="Global Game Jam 2020" />
 <meta property="og:description" content="During the 2020 Global Game Jam, my team and I worked on Re-Pair, a retro RTS in Pico-8. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&rsquo;t pair them all!
 You can play it below. Since it requires a mouse to be played, play it in your browser!
-var canvas = document." />
+&lt;canvas class=&quot;emscripten&quot; id=&quot;canvas&quot; oncontextmenu=&quot;event." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://liacs.leidenuniv.nl/~meermtvander/projects/ggj2020/" />
-<meta property="article:published_time" content="2020-02-03T11:56:42&#43;01:00"/>
-<meta property="article:modified_time" content="2020-02-03T11:56:42&#43;01:00"/>
+<meta property="og:url" content="https://liacs.leidenuniv.nl/~meermtvander/projects/ggj2020/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2020-02-03T11:56:42+01:00" />
+<meta property="article:modified_time" content="2020-02-03T11:56:42+01:00" />
+
 
 
 <title>
@@ -49,11 +50,11 @@ You can play it below. Since it requires a mouse to be played, play it in your b
 
 
     
-    <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/reset.css?t=2022-08-29%2013%3a34%3a35.7479461%20%2b0200%20CEST%20m%3d%2b0.213780301">
-    <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/pygments.css?t=2022-08-29%2013%3a34%3a35.7479461%20%2b0200%20CEST%20m%3d%2b0.213780301">
-    <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/main.css?t=2022-08-29%2013%3a34%3a35.7479461%20%2b0200%20CEST%20m%3d%2b0.213780301">
+    <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/reset.css?t=2022-09-20%2011%3a47%3a48.886800394%20%2b0200%20CEST%20m%3d%2b0.098500086">
+    <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/pygments.css?t=2022-09-20%2011%3a47%3a48.886800394%20%2b0200%20CEST%20m%3d%2b0.098500086">
+    <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/main.css?t=2022-09-20%2011%3a47%3a48.886800394%20%2b0200%20CEST%20m%3d%2b0.098500086">
     
-        <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/override.css?t=2022-08-29%2013%3a34%3a35.7479461%20%2b0200%20CEST%20m%3d%2b0.213780301">
+        <link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/override.css?t=2022-09-20%2011%3a47%3a48.886800394%20%2b0200%20CEST%20m%3d%2b0.098500086">
     
 
 
@@ -178,82 +179,65 @@ You can play it below. Since it requires a mouse to be played, play it in your b
 
             <div class="markdown">
                 <p>During the <a href="https://globalgamejam.org/2020">2020 Global Game Jam</a>, my team and I worked on <a href="https://globalgamejam.org/2020/games/re-pair-7-3"><strong>Re-Pair</strong></a>, a retro RTS in <a href="https://www.lexaloffle.com/pico-8.php">Pico-8</a>. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&rsquo;t pair them all!</p>
-
 <p>You can play it below. Since it requires a mouse to be played, play it in your browser!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;canvas class=&quot;emscripten&quot; id=&quot;canvas&quot; oncontextmenu=&quot;event.preventDefault()&quot;&gt;&lt;/canvas&gt;
 
-<head>
-	<link rel="stylesheet" href="https://liacs.leidenuniv.nl/~meermtvander/css/pico8.css">
-</head>
+&lt;script type=&quot;text/javascript&quot;&gt;
+	var canvas = document.getElementById(&quot;canvas&quot;);
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+	var Module = {};
+	Module.canvas = canvas;
+&lt;/script&gt;
 
+&lt;script async type=&quot;text/javascript&quot; src=&quot;/js/re_pair.js&quot;&gt;&lt;/script&gt;
 
-<body>
-<div id="layout">
-
-<div id="main">
-
-<div class="content">
-
-<div style="width: 542px; padding: 15px; background-color: #000; margin-left: auto; margin-right: auto;">
-	<div style="width:512px;">
-
-	<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
-
-	<script type="text/javascript">
-		var canvas = document.getElementById("canvas");
-		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
-		var Module = {};
-		Module.canvas = canvas;
-	</script>
-
-	<script async type="text/javascript" src="https://liacs.leidenuniv.nl/~meermtvander/js/re_pair.js"></script>
-
-	<script>
-		function onKeyDown_blocker(event) {
-			event = event || window.event;
-			var o = document.activeElement;
-			if (!o || o == document.body || o.tagName == "canvas")
+&lt;script&gt;
+	function onKeyDown_blocker(event) {
+		event = event || window.event;
+		var o = document.activeElement;
+		if (!o || o == document.body || o.tagName == &quot;canvas&quot;)
+		{
+			if ([32, 37, 38, 39, 40].indexOf(event.keyCode) &gt; -1)
 			{
-				if ([32, 37, 38, 39, 40].indexOf(event.keyCode) > -1)
-				{
-					if (event.preventDefault) event.preventDefault();
-				}
+				if (event.preventDefault) event.preventDefault();
 			}
 		}
-		document.addEventListener('keydown', onKeyDown_blocker, false);
-	</script>
+	}
+	document.addEventListener('keydown', onKeyDown_blocker, false);
+&lt;/script&gt;
 
-	<br>
+&lt;br&gt;
 
-	<div class=pico8_el onclick="Module.pico8Reset();">
-	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dOwoAMQhE15A+rfc/3bZ7AlMnQfywCkKsfcgMM9ZP+QHtIn0vLeBAFduiFdQ/0DmvtR5LXJ6CPSXe2ZXcFNlTxFbemKrbZPs35XogeS9xeQr+anT6LzoOwEDwZJ7jwhXUnwkTTiDQ2Ja34AAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Reset" width=12 height=	12/><p>Reset</p></div>
+&lt;div class=pico8_el onclick=&quot;Module.pico8Reset();&quot;&gt;
+&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dOwoAMQhE15A+rfc/3bZ7AlMnQfywCkKsfcgMM9ZP+QHtIn0vLeBAFduiFdQ/0DmvtR5LXJ6CPSXe2ZXcFNlTxFbemKrbZPs35XogeS9xeQr+anT6LzoOwEDwZJ7jwhXUnwkTTiDQ2Ja34AAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=&quot; alt=&quot;Reset&quot; width=12 height=	12/&gt;&lt;p&gt;Reset&lt;/p&gt;&lt;/div&gt;
 
-	<div class=pico8_el onclick="Module.pico8TogglePaused();">
-	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAPUlEQVR4Ae3doQ0AIAxEUWABLPtPh2WCq26DwFSU/JPNT166QSu/Hg86W9dwLte+diP7AwAAAAAAgD+A+jM2ZAgo84I0PgAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Pause" width=12 height=12/> <p>Pause</p></div>
+&lt;div class=pico8_el onclick=&quot;Module.pico8TogglePaused();&quot;&gt;
+&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAPUlEQVR4Ae3doQ0AIAxEUWABLPtPh2WCq26DwFSU/JPNT166QSu/Hg86W9dwLte+diP7AwAAAAAAgD+A+jM2ZAgo84I0PgAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=&quot; alt=&quot;Pause&quot; width=12 height=12/&gt; &lt;p&gt;Pause&lt;/p&gt;&lt;/div&gt;
 
-	<div class=pico8_el onclick="Module.requestFullScreen(true, false);">
-	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dsQ1AIQhExfze1v2ns3UCrfgFhmgUUAoGgHscp21wX9BqaZoDojbB96OkDJKNcTN2BHTyYNYmoT2BlPL7BKgcPfHjAVXKKadkHOn9K1r16N0czN6a95N8mnA7Aq2fTZ3Af3UKmCSMazL8HwAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Fullscreen" width=12 height=12/><p>Fullscreen</p></div>
+&lt;div class=pico8_el onclick=&quot;Module.requestFullScreen(true, false);&quot;&gt;
+&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dsQ1AIQhExfze1v2ns3UCrfgFhmgUUAoGgHscp21wX9BqaZoDojbB96OkDJKNcTN2BHTyYNYmoT2BlPL7BKgcPfHjAVXKKadkHOn9K1r16N0czN6a95N8mnA7Aq2fTZ3Af3UKmCSMazL8HwAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=&quot; alt=&quot;Fullscreen&quot; width=12 height=12/&gt;&lt;p&gt;Fullscreen&lt;/p&gt;&lt;/div&gt;
 
-	<div class=pico8_el onclick="Module.pico8ToggleSound();">
-	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAXklEQVR4Ae2doQ4AIQxD4YLH8v9fh+ULhjpxxSwLg2uyapr1JRu1iV5Z+1BGl4+xNpX38SYo2uRvYiT5LwEmt+ocgXVLrhPEgBiw8Q5w7/kueSkK+D2tJO4E/I3GrwkqQCBabEj/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Toggle Sound" width=12 height=12/><p>Sound</p></div>
+&lt;div class=pico8_el onclick=&quot;Module.pico8ToggleSound();&quot;&gt;
+&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAXklEQVR4Ae2doQ4AIQxD4YLH8v9fh+ULhjpxxSwLg2uyapr1JRu1iV5Z+1BGl4+xNpX38SYo2uRvYiT5LwEmt+ocgXVLrhPEgBiw8Q5w7/kueSkK+D2tJO4E/I3GrwkqQCBabEj/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=&quot; alt=&quot;Toggle Sound&quot; width=12 height=12/&gt;&lt;p&gt;Sound&lt;/p&gt;&lt;/div&gt;
 
-	<div class=pico8_el ><a target="_new" href="http://www.lexaloffle.com/bbs/?cat=7&sub=2">
-	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAlElEQVR4Ae2dMQ5FQBCGh6jcwAkkateg3DiAa+iQUGqVKi95FQfAJRQOoHeBUf8JyQqKjZ1uMzuz2e/LTE3KhyF7kSlgLOykas23f6D+A9Yp84aAOYU15pcJnfji0Il2ID8HzC4y38ZrnfIBGxeRoR3c3EWrACdsV5BOsx7OSRnrOXh4F5HzA6bevwUn8wlz7eCDsQM99B3ks0s/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="More Carts" width=12 height=12/><p>Carts</p></a></div>
+&lt;div class=pico8_el &gt;&lt;a target=&quot;_new&quot; href=&quot;http://www.lexaloffle.com/bbs/?cat=7&amp;sub=2&quot;&gt;
+&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAlElEQVR4Ae2dMQ5FQBCGh6jcwAkkateg3DiAa+iQUGqVKi95FQfAJRQOoHeBUf8JyQqKjZ1uMzuz2e/LTE3KhyF7kSlgLOykas23f6D+A9Yp84aAOYU15pcJnfji0Il2ID8HzC4y38ZrnfIBGxeRoR3c3EWrACdsV5BOsx7OSRnrOXh4F5HzA6bevwUn8wlz7eCDsQM99B3ks0s/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=&quot; alt=&quot;More Carts&quot; width=12 height=12/&gt;&lt;p&gt;Carts&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;
 
-	<br>
-	<br>
+&lt;br&gt;
+&lt;br&gt;
 
-	</div>
-</div>
-
-</div>
-
-</div>
-
-</body>
-</html>
-
-
+&lt;/div&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
             </div>
         </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Moo! - Michiel van der Meer</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Projects on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Aug 2022 16:53:31 +0200</lastBuildDate>
-    
-	<atom:link href="https://liacs.leidenuniv.nl/~meermtvander/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 26 Aug 2022 16:53:31 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ArgMining22 Shared Task</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/projects/am_argnovel/</link>
@@ -55,7 +51,7 @@ Links  Link naar de presentatie slides. Tegenlicht documentaire Reactie op Tegen
       <pubDate>Wed, 23 Sep 2020 15:56:42 +0200</pubDate>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/axies/</guid>
-      <description>Below you will find all the values relevant in this experiment. Please use it as a reference if you want to find out more about the values you encounter. 0 - Hedonism pleasure, enjoying life, self-indulgent
+      <description>Below you will find all the values relevant in this experiment. Please use it as a reference if you want to find out more about the values you encounter.  0 - Hedonism pleasure, enjoying life, self-indulgent
 Defining goal: pleasure or sensuous gratification for oneself.
 1 - Mental health mentally, stress, Mental damage, positivity, living alone, psychic injury, stress, physical proximity, mental complaints, tension, spiritual relaxation, quality of life, psychiatry, loneliness, walk around, visit ill people in nursery home, cheer up, last days, empathy, compassion, last phase of life, psychologist, personal care</description>
     </item>
@@ -68,7 +64,7 @@ Defining goal: pleasure or sensuous gratification for oneself.
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/ggj2020/</guid>
       <description>During the 2020 Global Game Jam, my team and I worked on Re-Pair, a retro RTS in Pico-8. The goal of the game is to pair up units into bigger ones, and defeat the evil forces. Your territory grows by scouting with small units, so don&amp;rsquo;t pair them all!
 You can play it below. Since it requires a mouse to be played, play it in your browser!
-var canvas = document.</description>
+&amp;lt;canvas class=&amp;quot;emscripten&amp;quot; id=&amp;quot;canvas&amp;quot; oncontextmenu=&amp;quot;event.</description>
     </item>
     
     <item>
@@ -120,21 +116,21 @@ My fork of ILLC&amp;rsquo;s machine can be found here. In addition, I push my ut
     </item>
     
     <item>
-      <title>ShareLatex scraper</title>
-      <link>https://liacs.leidenuniv.nl/~meermtvander/projects/sharelatex_scraper/</link>
-      <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
-      
-      <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/sharelatex_scraper/</guid>
-      <description>I made a ShareLatex scraper, to download all my projects&amp;rsquo; source files for a local backup.</description>
-    </item>
-    
-    <item>
       <title>language-netlogo</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/projects/language_netlogo/</link>
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/language_netlogo/</guid>
       <description>I created the NetLogo language package for Atom!</description>
+    </item>
+    
+    <item>
+      <title>ShareLatex scraper</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/projects/sharelatex_scraper/</link>
+      <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/sharelatex_scraper/</guid>
+      <description>I made a ShareLatex scraper, to download all my projects&#39; source files for a local backup.</description>
     </item>
     
     <item>
