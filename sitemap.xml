@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://liacs.leidenuniv.nl/~meermtvander/projects/am_argnovel/</loc>
-    <lastmod>2022-08-26T16:53:31+02:00</lastmod>
-  </url><url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/</loc>
+    <lastmod>2022-09-19T12:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/</loc>
+    <lastmod>2022-09-19T12:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</loc>
+    <lastmod>2022-09-19T12:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://liacs.leidenuniv.nl/~meermtvander/projects/am_argnovel/</loc>
     <lastmod>2022-08-26T16:53:31+02:00</lastmod>
   </url><url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/projects/</loc>
@@ -18,9 +24,6 @@
     <lastmod>2022-05-11T11:00:00+02:00</lastmod>
   </url><url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</loc>
-    <lastmod>2022-04-21T14:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/</loc>
     <lastmod>2022-04-21T14:00:00+02:00</lastmod>
   </url><url>
     <loc>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_jaamas/</loc>

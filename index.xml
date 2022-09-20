@@ -6,7 +6,17 @@
     <description>Recent content on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 26 Aug 2022 16:53:31 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Sep 2022 12:30:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Will It Blend? Mixing Training Paradigms &amp; Prompting for Argument Quality Prediction</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</link>
+      <pubDate>Mon, 19 Sep 2022 12:30:00 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</guid>
+      <description>Collaborative effort with CLTL at the VU on predicting logical argument quality using prompting GPT-3 and pretrained Transformer models.
+ Link to the paper: here  How to cite TBD</description>
+    </item>
+    
     <item>
       <title>ArgMining22 Shared Task</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/projects/am_argnovel/</link>

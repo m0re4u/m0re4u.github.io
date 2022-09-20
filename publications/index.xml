@@ -6,7 +6,17 @@
     <description>Recent content in Publications on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 21 Apr 2022 14:00:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Sep 2022 12:30:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Will It Blend? Mixing Training Paradigms &amp; Prompting for Argument Quality Prediction</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</link>
+      <pubDate>Mon, 19 Sep 2022 12:30:00 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</guid>
+      <description>Collaborative effort with CLTL at the VU on predicting logical argument quality using prompting GPT-3 and pretrained Transformer models.
+ Link to the paper: here  How to cite TBD</description>
+    </item>
+    
     <item>
       <title>Learning to Ask Timely Questions in a Collaborative Grounded Language Understanding Task</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</link>
