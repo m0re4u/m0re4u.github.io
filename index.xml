@@ -6,7 +6,18 @@
     <description>Recent content on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 19 Sep 2022 12:30:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 14:00:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leveraging Few-Shot Data Augmentation and Waterfall Prompting for Response Generation</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/dstc/</link>
+      <pubDate>Sun, 20 Aug 2023 14:00:00 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/dstc/</guid>
+      <description>Participation in the DSTC11 Track 5 competition on task-oriented conversational modeling using subjective knowledge.
+Link to the arxiv paper: https://arxiv.org/abs/2308.01080
+Other links Github </description>
+    </item>
+    
     <item>
       <title>Will It Blend? Mixing Training Paradigms &amp; Prompting for Argument Quality Prediction</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</link>
