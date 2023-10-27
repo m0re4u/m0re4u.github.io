@@ -14,7 +14,7 @@
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/emnlp2023/</guid>
       <description>My EMNLP &amp;lsquo;23 paper on whether value conflicts influence disagreement among participants in discussions on Reddit.
-Links  Paper Code Data  </description>
+Links Paper Code Data </description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@ Links  Paper Code Data  </description>
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/dstc/</guid>
       <description>Participation in the DSTC11 Track 5 competition on task-oriented conversational modeling using subjective knowledge.
 Link to the arxiv paper: https://arxiv.org/abs/2308.01080
-Other links  Github  </description>
+Other links Github </description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@ Other links  Github  </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</guid>
       <description>Collaborative effort with CLTL at the VU on predicting logical argument quality using prompting GPT-3 and pretrained Transformer models.
- Link to the paper: here  How to cite @inproceedings{vandermeer2022will, title = {Will It Blend? Mixing Training Paradigms &amp;amp;amp; Prompting for Argument Quality Prediction}, author = {van der Meer, Michiel and Reuver, Myrthe and Khurana, Urja and Krause, Lea and Baez Santamaria, Selene}, booktitle = {Proceedings of the 9th Workshop on Argument Mining}, month = {oct}, year = {2022}, address = {Online and in Gyeongju, Republic of Korea}, publisher = {International Conference on Computational Linguistics}, url = {https://aclanthology.</description>
+Link to the paper: here How to cite @inproceedings{vandermeer2022will, title = {Will It Blend? Mixing Training Paradigms &amp;amp;amp; Prompting for Argument Quality Prediction}, author = {van der Meer, Michiel and Reuver, Myrthe and Khurana, Urja and Krause, Lea and Baez Santamaria, Selene}, booktitle = {Proceedings of the 9th Workshop on Argument Mining}, month = {oct}, year = {2022}, address = {Online and in Gyeongju, Republic of Korea}, publisher = {International Conference on Computational Linguistics}, url = {https://aclanthology.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@ Other links  Github  </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</guid>
       <description>Artificial agents benefit from asking questions to human instructors at the right time, can predictive uncertainty be used to find the right time? Joint work with my colleagues from Hybrid Intelligence: Kata Naszadi, Taewoon Kim, Putra Manggala.
- Link to the two-page abstract: here.  </description>
+Link to the two-page abstract: here. </description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ Other links  Github  </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</guid>
       <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.
- Link to the paper: here  How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {17--31}, publisher = {IOS Press}, title = {HyEnA: A Hybrid Method for Extracting Arguments from Opinions}, year = {2022} } Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
+Link to the paper: here How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {17--31}, publisher = {IOS Press}, title = {HyEnA: A Hybrid Method for Extracting Arguments from Opinions}, year = {2022} } Supplementary material Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ Other links  Github  </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/platforms/</guid>
       <description>Review paper on the design elements in deliberation platforms.
- Link to the paper: here.  How to cite @article{shortall2022reason, author = {Shortall, Ruth and Itten, Anatol and Meer, Michiel van der and Murukannaiah, Pradeep and Jonker, Catholijn}, title = {Reason against the machine? Future directions for mass online deliberation}, journal = {Frontiers in Political Science}, volume = {4}, year = {2022}, url = {https://www.frontiersin.org/articles/10.3389/fpos.2022.946589}, doi = {10.3389/fpos.2022.946589}, issn = {2673-3145} } </description>
+Link to the paper: here. How to cite @article{shortall2022reason, author = {Shortall, Ruth and Itten, Anatol and Meer, Michiel van der and Murukannaiah, Pradeep and Jonker, Catholijn}, title = {Reason against the machine? Future directions for mass online deliberation}, journal = {Frontiers in Political Science}, volume = {4}, year = {2022}, url = {https://www.frontiersin.org/articles/10.3389/fpos.2022.946589}, doi = {10.3389/fpos.2022.946589}, issn = {2673-3145} } </description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@ Other links  Github  </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/thesis/</guid>
       <description>Attempt to interpret the latent space from an RL agent to identify its current objective in a complex language instruction. This work followed my master thesis at the UvA.
- Link to the paper: here.  </description>
+Link to the paper: here. </description>
     </item>
     
   </channel>
