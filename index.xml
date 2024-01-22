@@ -6,7 +6,17 @@
     <description>Recent content on Moo! - Michiel van der Meer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 15 Oct 2023 14:00:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2024 14:00:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Empirical Analysis of Diversity in Argument Summarization</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/eacl2024/</link>
+      <pubDate>Sat, 20 Jan 2024 14:00:00 +0200</pubDate>
+      
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/eacl2024/</guid>
+      <description>My EACL &amp;lsquo;23 paper on whether NLP models, including LLMs, are able to represent diversity among opinions when they are tasked with summarizing them. Our experiments show that these models have trouble with (1) dealing with data from various sources, (2) representing arguments shared by few people, and (3) aligning with subjectivity in human-provided annotations.
+Links  TBA  </description>
+    </item>
+    
     <item>
       <title>Do Differences in Values Influence Disagreements in Online Discussions?</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/emnlp2023/</link>
@@ -14,7 +24,7 @@
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/emnlp2023/</guid>
       <description>My EMNLP &amp;lsquo;23 paper on whether value conflicts influence disagreement among participants in discussions on Reddit.
-Links Paper Code Data </description>
+Links  Paper Code Data  </description>
     </item>
     
     <item>
@@ -25,7 +35,7 @@ Links Paper Code Data </description>
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/dstc/</guid>
       <description>Participation in the DSTC11 Track 5 competition on task-oriented conversational modeling using subjective knowledge.
 Link to the arxiv paper: https://arxiv.org/abs/2308.01080
-Other links Github </description>
+Other links  Github  </description>
     </item>
     
     <item>
@@ -35,7 +45,7 @@ Other links Github </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/cltl_hackathon/</guid>
       <description>Part of the project of Confidently Confused: Exploring Expressions of Uncertainty and Confidence Calibration in Large Language Models Across Languages
-Resources https://cltl.github.io/gpt-hackaton/ </description>
+Resources  https://cltl.github.io/gpt-hackaton/  </description>
     </item>
     
     <item>
@@ -45,7 +55,7 @@ Resources https://cltl.github.io/gpt-hackaton/ </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</guid>
       <description>Collaborative effort with CLTL at the VU on predicting logical argument quality using prompting GPT-3 and pretrained Transformer models.
-Link to the paper: here How to cite @inproceedings{vandermeer2022will, title = {Will It Blend? Mixing Training Paradigms &amp;amp;amp; Prompting for Argument Quality Prediction}, author = {van der Meer, Michiel and Reuver, Myrthe and Khurana, Urja and Krause, Lea and Baez Santamaria, Selene}, booktitle = {Proceedings of the 9th Workshop on Argument Mining}, month = {oct}, year = {2022}, address = {Online and in Gyeongju, Republic of Korea}, publisher = {International Conference on Computational Linguistics}, url = {https://aclanthology.</description>
+ Link to the paper: here  How to cite @inproceedings{vandermeer2022will, title = {Will It Blend? Mixing Training Paradigms &amp;amp;amp; Prompting for Argument Quality Prediction}, author = {van der Meer, Michiel and Reuver, Myrthe and Khurana, Urja and Krause, Lea and Baez Santamaria, Selene}, booktitle = {Proceedings of the 9th Workshop on Argument Mining}, month = {oct}, year = {2022}, address = {Online and in Gyeongju, Republic of Korea}, publisher = {International Conference on Computational Linguistics}, url = {https://aclanthology.</description>
     </item>
     
     <item>
@@ -83,7 +93,7 @@ See publications/emnlp23</description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</guid>
       <description>Artificial agents benefit from asking questions to human instructors at the right time, can predictive uncertainty be used to find the right time? Joint work with my colleagues from Hybrid Intelligence: Kata Naszadi, Taewoon Kim, Putra Manggala.
-Link to the two-page abstract: here. </description>
+ Link to the two-page abstract: here.  </description>
     </item>
     
     <item>
@@ -103,7 +113,7 @@ Link to the two-page abstract: here. </description>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</guid>
       <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.
-Link to the paper: here How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {17--31}, publisher = {IOS Press}, title = {HyEnA: A Hybrid Method for Extracting Arguments from Opinions}, year = {2022} } Supplementary material Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
+ Link to the paper: here  How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {17--31}, publisher = {IOS Press}, title = {HyEnA: A Hybrid Method for Extracting Arguments from Opinions}, year = {2022} } Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
     </item>
     
     <item>
@@ -113,7 +123,7 @@ Link to the paper: here How to cite @inproceedings{vandermeer2022hyena, address 
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/platforms/</guid>
       <description>Review paper on the design elements in deliberation platforms.
-Link to the paper: here. How to cite @article{shortall2022reason, author = {Shortall, Ruth and Itten, Anatol and Meer, Michiel van der and Murukannaiah, Pradeep and Jonker, Catholijn}, title = {Reason against the machine? Future directions for mass online deliberation}, journal = {Frontiers in Political Science}, volume = {4}, year = {2022}, url = {https://www.frontiersin.org/articles/10.3389/fpos.2022.946589}, doi = {10.3389/fpos.2022.946589}, issn = {2673-3145} } </description>
+ Link to the paper: here.  How to cite @article{shortall2022reason, author = {Shortall, Ruth and Itten, Anatol and Meer, Michiel van der and Murukannaiah, Pradeep and Jonker, Catholijn}, title = {Reason against the machine? Future directions for mass online deliberation}, journal = {Frontiers in Political Science}, volume = {4}, year = {2022}, url = {https://www.frontiersin.org/articles/10.3389/fpos.2022.946589}, doi = {10.3389/fpos.2022.946589}, issn = {2673-3145} } </description>
     </item>
     
     <item>
@@ -123,7 +133,7 @@ Link to the paper: here. How to cite @article{shortall2022reason, author = {Shor
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/hovo/</guid>
       <description>Dit college vond plaats in de een collegeserie van Maieutiek aan de HOVO, die gaat over de rol van AI en algoritmes in de samenleving: De Mens: een Algoritme met Huidhonger. Maieutiek biedt filosofische kennis waarmee mensen zelf in de praktijk aan de slag kunnen. Het college vond plaats in Groningen op 2021-11-17 en in Amsterdam op 2021-11-22.
-Links Link naar de presentatie slides. Tegenlicht documentaire Reactie op Tegenlicht docu -&amp;gt; Zie onder Boeken Homo Deus van Yuval Noah Harari Klara and the Sun van Kazuo Ishiguro I, Robot van Isaac Asimov Reactie op Tegenlicht &amp;ldquo;Digimens&amp;rdquo; geschreven op 2021-12-05 door Michiel van der Meer en Sabina van Rooij</description>
+Links  Link naar de presentatie slides. Tegenlicht documentaire Reactie op Tegenlicht docu -&amp;gt; Zie onder  Boeken  Homo Deus van Yuval Noah Harari Klara and the Sun van Kazuo Ishiguro I, Robot van Isaac Asimov  Reactie op Tegenlicht &amp;ldquo;Digimens&amp;rdquo; geschreven op 2021-12-05 door Michiel van der Meer en Sabina van Rooij</description>
     </item>
     
     <item>
@@ -172,7 +182,7 @@ Links Link naar de presentatie slides. Tegenlicht documentaire Reactie op Tegenl
       <pubDate>Wed, 23 Sep 2020 15:56:42 +0200</pubDate>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/axies/</guid>
-      <description>Below you will find all the values relevant in this experiment. Please use it as a reference if you want to find out more about the values you encounter. 0 - Hedonism pleasure, enjoying life, self-indulgent
+      <description>Below you will find all the values relevant in this experiment. Please use it as a reference if you want to find out more about the values you encounter.  0 - Hedonism pleasure, enjoying life, self-indulgent
 Defining goal: pleasure or sensuous gratification for oneself.
 1 - Mental health mentally, stress, Mental damage, positivity, living alone, psychic injury, stress, physical proximity, mental complaints, tension, spiritual relaxation, quality of life, psychiatry, loneliness, walk around, visit ill people in nursery home, cheer up, last days, empathy, compassion, last phase of life, psychologist, personal care</description>
     </item>
@@ -195,7 +205,7 @@ You can play it below. Since it requires a mouse to be played, play it in your b
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/thesis/</guid>
       <description>Attempt to interpret the latent space from an RL agent to identify its current objective in a complex language instruction. This work followed my master thesis at the UvA.
-Link to the paper: here. </description>
+ Link to the paper: here.  </description>
     </item>
     
     <item>
@@ -243,7 +253,7 @@ My fork of ILLC&amp;rsquo;s machine can be found here. In addition, I push my ut
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/dnt/</guid>
       <description>I have been a part of the Dutch Nao Team since 2015, participating in the RoboCup Standard Platform League. I&amp;rsquo;ve been on multiple trips with my team, which has led me to quite a lot of different places:
-Techfest IIT, Mumbai, India (2015-2016) RoboCup European Open, Eindhoven, Netherlands (2016) RoboCup Leipzig, Germany (2016) RoHOW, Hamburg, Germany (2016) RoboCup Iran Open, Teheran, Iran (2017) RoboCup Nagoya, Japan (2017) RoHOW, Hamburg, Germany (2017) RoboCup Montreal, Canada (2018) Messe Dornbirn, Austria (2018) RoHOW, Hamburg, Germany (2018) Inside the team I was involved with the creation of our own framework, as well as leading the project group on automation.</description>
+ Techfest IIT, Mumbai, India (2015-2016) RoboCup European Open, Eindhoven, Netherlands (2016) RoboCup Leipzig, Germany (2016) RoHOW, Hamburg, Germany (2016) RoboCup Iran Open, Teheran, Iran (2017) RoboCup Nagoya, Japan (2017) RoHOW, Hamburg, Germany (2017) RoboCup Montreal, Canada (2018) Messe Dornbirn, Austria (2018) RoHOW, Hamburg, Germany (2018)  Inside the team I was involved with the creation of our own framework, as well as leading the project group on automation.</description>
     </item>
     
     <item>
@@ -261,7 +271,7 @@ Techfest IIT, Mumbai, India (2015-2016) RoboCup European Open, Eindhoven, Nether
       <pubDate>Tue, 24 Apr 2018 16:53:31 +0200</pubDate>
       
       <guid>https://liacs.leidenuniv.nl/~meermtvander/projects/sharelatex_scraper/</guid>
-      <description>I made a ShareLatex scraper, to download all my projects&amp;rsquo; source files for a local backup.</description>
+      <description>I made a ShareLatex scraper, to download all my projects&#39; source files for a local backup.</description>
     </item>
     
     <item>
