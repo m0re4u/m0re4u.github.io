@@ -4,139 +4,114 @@
     <title>Publications on Moo! - Michiel van der Meer</title>
     <link>https://liacs.leidenuniv.nl/~meermtvander/publications/</link>
     <description>Recent content in Publications on Moo! - Michiel van der Meer</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Jan 2024 14:00:00 +0200</lastBuildDate><atom:link href="https://liacs.leidenuniv.nl/~meermtvander/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 14:00:00 +0200</lastBuildDate>
+    <atom:link href="https://liacs.leidenuniv.nl/~meermtvander/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Annotator-Centric Active Learning for Subjective NLP Tasks</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/annotator/</link>
+      <pubDate>Sat, 20 Apr 2024 14:00:00 +0200</pubDate>
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/annotator/</guid>
+      <description>Links Paper </description>
+    </item>
+    <item>
+      <title>Facilitating Online Opinion Diversity through Hybrid NLP Approaches</title>
+      <link>https://liacs.leidenuniv.nl/~meermtvander/publications/naacl2024/</link>
+      <pubDate>Sat, 20 Apr 2024 14:00:00 +0200</pubDate>
+      <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/naacl2024/</guid>
+      <description>Links TBA </description>
+    </item>
     <item>
       <title>An Empirical Analysis of Diversity in Argument Summarization</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/eacl2024/</link>
       <pubDate>Sat, 20 Jan 2024 14:00:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/eacl2024/</guid>
-      <description>My EACL &amp;lsquo;23 paper on whether NLP models, including LLMs, are able to represent diversity among opinions when they are tasked with summarizing them. Our experiments show that these models have trouble with (1) dealing with data from various sources, (2) representing arguments shared by few people, and (3) aligning with subjectivity in human-provided annotations.
-Links  TBA  </description>
+      <description>My EACL &amp;lsquo;24 paper on whether NLP models, including LLMs, are able to represent diversity among opinions when they are tasked with summarizing them. Our experiments show that these models have trouble with (1) dealing with data from various sources, (2) representing arguments shared by few people, and (3) aligning with subjectivity in human-provided annotations.&#xA;Links Paper </description>
     </item>
-    
     <item>
       <title>Do Differences in Values Influence Disagreements in Online Discussions?</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/emnlp2023/</link>
       <pubDate>Sun, 15 Oct 2023 14:00:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/emnlp2023/</guid>
-      <description>My EMNLP &amp;lsquo;23 paper on whether value conflicts influence disagreement among participants in discussions on Reddit.
-Links  Paper Code Data  </description>
+      <description>My EMNLP &amp;lsquo;23 paper on whether value conflicts influence disagreement among participants in discussions on Reddit.&#xA;Links Paper Code Data </description>
     </item>
-    
     <item>
       <title>Leveraging Few-Shot Data Augmentation and Waterfall Prompting for Response Generation</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/dstc/</link>
       <pubDate>Sun, 20 Aug 2023 14:00:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/dstc/</guid>
-      <description>Participation in the DSTC11 Track 5 competition on task-oriented conversational modeling using subjective knowledge.
-Link to the arxiv paper: https://arxiv.org/abs/2308.01080
-Other links  Github  </description>
+      <description>Participation in the DSTC11 Track 5 competition on task-oriented conversational modeling using subjective knowledge.&#xA;Link to the arxiv paper: https://arxiv.org/abs/2308.01080&#xA;Other links Github </description>
     </item>
-    
     <item>
       <title>Will It Blend? Mixing Training Paradigms &amp; Prompting for Argument Quality Prediction</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</link>
       <pubDate>Mon, 19 Sep 2022 12:30:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/am2022/</guid>
-      <description>Collaborative effort with CLTL at the VU on predicting logical argument quality using prompting GPT-3 and pretrained Transformer models.
- Link to the paper: here  How to cite @inproceedings{vandermeer2022will, title = {Will It Blend? Mixing Training Paradigms &amp;amp;amp; Prompting for Argument Quality Prediction}, author = {van der Meer, Michiel and Reuver, Myrthe and Khurana, Urja and Krause, Lea and Baez Santamaria, Selene}, booktitle = {Proceedings of the 9th Workshop on Argument Mining}, month = {oct}, year = {2022}, address = {Online and in Gyeongju, Republic of Korea}, publisher = {International Conference on Computational Linguistics}, url = {https://aclanthology.</description>
+      <description>Collaborative effort with CLTL at the VU on predicting logical argument quality using prompting GPT-3 and pretrained Transformer models.&#xA;Link to the paper: here How to cite @inproceedings{vandermeer2022will, title = {Will It Blend? Mixing Training Paradigms &amp;amp;amp; Prompting for Argument Quality Prediction}, author = {van der Meer, Michiel and Reuver, Myrthe and Khurana, Urja and Krause, Lea and Baez Santamaria, Selene}, booktitle = {Proceedings of the 9th Workshop on Argument Mining}, month = {oct}, year = {2022}, address = {Online and in Gyeongju, Republic of Korea}, publisher = {International Conference on Computational Linguistics}, url = {https://aclanthology.</description>
     </item>
-    
     <item>
       <title>Learning to Ask Timely Questions in a Collaborative Grounded Language Understanding Task</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</link>
       <pubDate>Thu, 21 Apr 2022 14:00:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/iglu/</guid>
-      <description>Artificial agents benefit from asking questions to human instructors at the right time, can predictive uncertainty be used to find the right time? Joint work with my colleagues from Hybrid Intelligence: Kata Naszadi, Taewoon Kim, Putra Manggala.
- Link to the two-page abstract: here.  </description>
+      <description>Artificial agents benefit from asking questions to human instructors at the right time, can predictive uncertainty be used to find the right time? Joint work with my colleagues from Hybrid Intelligence: Kata Naszadi, Taewoon Kim, Putra Manggala.&#xA;Link to the two-page abstract: here. </description>
     </item>
-    
     <item>
       <title>What Values Should an Agent Align with?</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_jaamas/</link>
       <pubDate>Mon, 28 Mar 2022 12:00:42 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_jaamas/</guid>
-      <description>Link to the paper: here.
-@article{liscio2022values, author={Enrico Liscio and Michiel van der Meer and Luciano C. Siebert and Catholijn M. Jonker and Pradeep K. Murukannaiah}, journal={Autonomous Agents and Multi-Agent Systems}, title={What Values should an Agent Align with? An Empirical Comparison of General and Context-Specific Values}, year={2022}, volume={36}, number={1}, pages={23}, doi = {10.1007/s10458-022-09550-0}, isbn = {1573-7454}, keywords={Values, ethics, Schwartz, context, Axies, NLP}, short_name = {JAAMAS}, } </description>
+      <description>Link to the paper: here.&#xA;@article{liscio2022values, author={Enrico Liscio and Michiel van der Meer and Luciano C. Siebert and Catholijn M. Jonker and Pradeep K. Murukannaiah}, journal={Autonomous Agents and Multi-Agent Systems}, title={What Values should an Agent Align with? An Empirical Comparison of General and Context-Specific Values}, year={2022}, volume={36}, number={1}, pages={23}, doi = {10.1007/s10458-022-09550-0}, isbn = {1573-7454}, keywords={Values, ethics, Schwartz, context, Axies, NLP}, short_name = {JAAMAS}, } </description>
     </item>
-    
     <item>
       <title>HyEnA: A Hybrid Method for Extracting Arguments from Opinions</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</link>
       <pubDate>Thu, 24 Feb 2022 12:30:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hyena/</guid>
-      <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.
- Link to the paper: here  How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {17--31}, publisher = {IOS Press}, title = {HyEnA: A Hybrid Method for Extracting Arguments from Opinions}, year = {2022} } Supplementary material  Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
+      <description>My work on extracting arguments from an opinion corpus using a hybrid (human + AI) approach.&#xA;Link to the paper: here How to cite @inproceedings{vandermeer2022hyena, address = {Amsterdam, the Netherlands}, author = {van der Meer, Michiel and Liscio, Enrico and Jonker, Catholijn M. and Plaat, Aske and Vossen, Piek and Murukannaiah, Pradeep K.}, booktitle = {Proceedings of the first International Conference on Hybrid Human-Artificial Intelligence (HHAI 2022)}, pages = {17--31}, publisher = {IOS Press}, title = {HyEnA: A Hybrid Method for Extracting Arguments from Opinions}, year = {2022} } Supplementary material Description and additional results: Includes a richer description of the HyEnA experiments, including inter-rater reliability (IRR) metrics, the full key argument lists and details on the implementation of the baselines.</description>
     </item>
-    
     <item>
       <title>Reason Against the Machine: Future Directions for Mass Online Deliberation</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/platforms/</link>
       <pubDate>Mon, 31 Jan 2022 14:00:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/platforms/</guid>
-      <description>Review paper on the design elements in deliberation platforms.
- Link to the paper: here.  How to cite @article{shortall2022reason, author = {Shortall, Ruth and Itten, Anatol and Meer, Michiel van der and Murukannaiah, Pradeep and Jonker, Catholijn}, title = {Reason against the machine? Future directions for mass online deliberation}, journal = {Frontiers in Political Science}, volume = {4}, year = {2022}, url = {https://www.frontiersin.org/articles/10.3389/fpos.2022.946589}, doi = {10.3389/fpos.2022.946589}, issn = {2673-3145} } </description>
+      <description>Review paper on the design elements in deliberation platforms.&#xA;Link to the paper: here. How to cite @article{shortall2022reason, author = {Shortall, Ruth and Itten, Anatol and Meer, Michiel van der and Murukannaiah, Pradeep and Jonker, Catholijn}, title = {Reason against the machine? Future directions for mass online deliberation}, journal = {Frontiers in Political Science}, volume = {4}, year = {2022}, url = {https://www.frontiersin.org/articles/10.3389/fpos.2022.946589}, doi = {10.3389/fpos.2022.946589}, issn = {2673-3145} } </description>
     </item>
-    
     <item>
       <title>A Collaborative Platform for Identifying Context-Specific Values</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_demo/</link>
       <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/axies_demo/</guid>
-      <description>Link to the paper: here.
-@inproceedings{liscio2021collaborative, title={A Collaborative Platform for Identifying Context-Specific Values}, author={Liscio, Enrico and van der Meer, Michiel and Jonker, Catholijn M and Murukannaiah, Pradeep K}, booktitle={Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems}, pages={1773--1775}, year={2021}, address={London}, keywords={Agents, values, ethics, NLP}, } </description>
+      <description>Link to the paper: here.&#xA;@inproceedings{liscio2021collaborative, title={A Collaborative Platform for Identifying Context-Specific Values}, author={Liscio, Enrico and van der Meer, Michiel and Jonker, Catholijn M and Murukannaiah, Pradeep K}, booktitle={Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems}, pages={1773--1775}, year={2021}, address={London}, keywords={Agents, values, ethics, NLP}, } </description>
     </item>
-    
     <item>
       <title>Axies: Identifying and Evaluating Context-Specific Values</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/axies/</link>
       <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/axies/</guid>
-      <description>Link to the paper: here.
-@inproceedings{liscio2021axies, title = {Axies: Identifying and Evaluating Context-Specific Values}, author = {Liscio, Enrico and van der Meer, Michiel and Siebert, Luciano C and Jonker, Catholijn M and Mouter, Niek and Murukannaiah, Pradeep K}, booktitle = {Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems}, pages = {799--808}, year = {2021}, address = {London}, keywords = {Agents, values, ethics, NLP} } </description>
+      <description>Link to the paper: here.&#xA;@inproceedings{liscio2021axies, title = {Axies: Identifying and Evaluating Context-Specific Values}, author = {Liscio, Enrico and van der Meer, Michiel and Siebert, Luciano C and Jonker, Catholijn M and Mouter, Niek and Murukannaiah, Pradeep K}, booktitle = {Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems}, pages = {799--808}, year = {2021}, address = {London}, keywords = {Agents, values, ethics, NLP} } </description>
     </item>
-    
     <item>
       <title>Hunting a Robot Controlled by an Artificial Brain</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/hans/</link>
       <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/hans/</guid>
-      <description>Link to the paper: here.
-@inproceedings{van2015hunting, title={Hunting a robot controlled by an artificial brain}, author={van Harmelen, Martin and van der Meer, Michiel and Boon, Maarten and Gerbscheid, Jonathan and Visser, Arnoud and others}, booktitle={Proceedings of the 27th Belgian-Netherlands Conference on Artificial Intelligence (BNAIC 2015), Hasselt, Belgium}, year={2015} } </description>
+      <description>Link to the paper: here.&#xA;@inproceedings{van2015hunting, title={Hunting a robot controlled by an artificial brain}, author={van Harmelen, Martin and van der Meer, Michiel and Boon, Maarten and Gerbscheid, Jonathan and Visser, Arnoud and others}, booktitle={Proceedings of the 27th Belgian-Netherlands Conference on Artificial Intelligence (BNAIC 2015), Hasselt, Belgium}, year={2015} } </description>
     </item>
-    
     <item>
       <title>The Roasted Tomato Challenge for a Humanoid Robot</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/tomato/</link>
       <pubDate>Mon, 19 Apr 2021 20:00:42 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/tomato/</guid>
-      <description>Link to the paper: here.
-@inproceedings{lagrand2016roasted, title={The roasted tomato challenge for a humanoid robot}, author={Lagrand, Caitlin and van der Meer, Michiel and Visser, Arnoud}, booktitle={2016 International Conference on Autonomous Robot Systems and Competitions (ICARSC)}, pages={341--346}, year={2016}, organization={IEEE} } </description>
+      <description>Link to the paper: here.&#xA;@inproceedings{lagrand2016roasted, title={The roasted tomato challenge for a humanoid robot}, author={Lagrand, Caitlin and van der Meer, Michiel and Visser, Arnoud}, booktitle={2016 International Conference on Autonomous Robot Systems and Competitions (ICARSC)}, pages={341--346}, year={2016}, organization={IEEE} } </description>
     </item>
-    
     <item>
       <title>Exploiting Language Instructions for Interpretable and Compositional Reinforcement Learning</title>
       <link>https://liacs.leidenuniv.nl/~meermtvander/publications/thesis/</link>
       <pubDate>Mon, 13 Jan 2020 14:00:00 +0200</pubDate>
-      
       <guid>https://liacs.leidenuniv.nl/~meermtvander/publications/thesis/</guid>
-      <description>Attempt to interpret the latent space from an RL agent to identify its current objective in a complex language instruction. This work followed my master thesis at the UvA.
- Link to the paper: here.  </description>
+      <description>Attempt to interpret the latent space from an RL agent to identify its current objective in a complex language instruction. This work followed my master thesis at the UvA.&#xA;Link to the paper: here. </description>
     </item>
-    
   </channel>
 </rss>
