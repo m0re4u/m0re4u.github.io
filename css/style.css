@@ -1,0 +1,250 @@
+/* Base styles */
+:root {
+  /* Leiden University colors */
+  --primary-color: #001158;
+  /* Lei-Blauw - Primary Huisstijlkleur (RGB 0/17/88) */
+  --secondary-color: #be1908;
+  /* Lei-Rood - Sociale Wetenschappen (RGB 190/25/8) */
+  --accent-color-1: #f46e32;
+  /* Lei-Oranje - Wiskunde en Natuurwetenschappen (RGB 244/110/50) */
+  --accent-color-2: #aaadd0;
+  /* Lei-lichtblauw - Geneeskunde (RGB 92/177/235) */
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --link-color: #001158;
+  /* Lei-Blauw */
+  --link-hover-color: #f46e32;
+  /* Lei-Oranje */
+  --border-color: #e0e0e0;
+  --font-main: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 2px solid var(--primary-color);
+}
+
+.name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+nav a {
+  margin: 0 0.75rem;
+  padding: 0.5rem 0;
+  font-weight: 600;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Sections */
+section {
+  margin-bottom: 3rem;
+}
+
+/* Social links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* Twitter/X icon faded out */
+.social-links .twitter-faded {
+  opacity: 0.3;
+}
+
+.social-links .twitter-faded:hover {
+  opacity: 0.3;
+  color: var(--link-color);
+}
+
+/* Projects and Publications */
+.item-list {
+  list-style-type: none;
+}
+
+.item-list li {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.item-list li:last-child {
+  border-bottom: none;
+}
+
+.item-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.item-meta {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.item-description {
+  margin-bottom: 0.5rem;
+}
+
+/* Teaching */
+.course-list {
+  list-style-type: none;
+}
+
+.course-list li {
+  margin-bottom: 0.75rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .name {
+    font-size: 1.75rem;
+  }
+
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    margin: 0.25rem 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}

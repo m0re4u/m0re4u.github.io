@@ -1,0 +1,25 @@
+.bibtex-container {
+  display: none;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  border-left: 3px solid var(--primary-color);
+}
+
+.bibtex-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+  margin-left: 5px;
+}
+
+.bibtex-link:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
